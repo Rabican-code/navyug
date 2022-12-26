@@ -12,12 +12,12 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fanadesh</title>
+  <title>Navyug</title> 
 
 
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}" />
   <!-- progress barstle -->
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
   <!-- fonts style -->
@@ -25,9 +25,9 @@
   <!-- font wesome stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="{{ asset('css/responsive.css') }}" rel="stylesheet" />
 
 
 
@@ -37,17 +37,18 @@
 
 </head>
 
-<body class="sub_page">
-  <div class="top_container ">
+<body>
+  <div class="top_container">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="/">
-            <span>
-              Fanadesh
-            </span>
-          </a>
+        <a href="/">
+          <img src="images/navyug.png"  width="250" 
+     height="260" >
+            
+    </img>
+  </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -124,9 +125,8 @@
   <!-- info section -->
   <section class="info_section layout_padding-top">
     <div class="info_logo-box">
-      <h2>
-        Fanadesh
-      </h2>
+    <img src="images/navyug.png"  width="300" 
+     height="280" >
     </div>
     <div class="container layout_padding2">
       <div class="row">

@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fanadesh</title> 
+  <title>Navyug</title> 
 
 
 
@@ -45,7 +45,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a href="/">
           <img src="images/navyug.png"  width="250" 
-     height="230" >
+     height="260" >
             
     </img>
   </a>
@@ -384,9 +384,8 @@
       <!-- end contact section -->
       <section class="info_section layout_padding-top">
         <div class="info_logo-box">
-          <h2>
-              Fanadesh
-          </h2>
+        <img src="images/navyug.png"  width="300" 
+     height="280" >
         </div>
           <div class="container layout_padding2">
             <div class="row">
