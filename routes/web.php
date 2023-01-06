@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admissionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,3 +42,5 @@ Route::get('/why', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::post('/add', [admissionController::class,'addmission']);

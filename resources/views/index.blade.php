@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Navyug</title> 
+  <title>Navyug</title>
 
 
 
@@ -44,9 +44,9 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a href="/">
-          <img src="images/navyug.png"  width="250" 
+          <img src="images/navyug.png"  width="250"
      height="260" >
-            
+
     </img>
   </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -74,6 +74,9 @@
 
                 <li class="nav-item">
                   <a class="nav-link" href="contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="addTeacher">Become a teacher</a>
                 </li>
 
               </ul>
@@ -326,7 +329,7 @@
               </div>
             </div>
           </div>
-     
+
     </div>
   </section>
 
@@ -339,7 +342,7 @@
     <section class="contact_section ">
 
         <div class="container">
-         
+
           <div class="row">
             <div class="col-md-6">
               <div class="d-flex justify-content-center d-md-block">
@@ -368,9 +371,9 @@
                       </button>
                     </div>
                   </div>
-    
+
                 </div>
-    
+
               </form>
             </div>
             <div class="col-md-6">
@@ -384,22 +387,22 @@
       <!-- end contact section -->
       <section class="info_section layout_padding-top">
         <div class="info_logo-box">
-        <img src="images/navyug.png"  width="300" 
+        <img src="images/navyug.png"  width="300"
      height="280" >
         </div>
           <div class="container layout_padding2">
             <div class="row">
               <div class="col-md-3">
                 <h5>
-                    About Us                                                                             
+                    About Us
                 </h5>
                <p>
-                  dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r 
+                  dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r
                </p>
               </div>
               <div class="col-md-3">
                 <h5>
-                    Useful Link 
+                    Useful Link
                 </h5>
                 <ul>
                   <li>
@@ -424,11 +427,11 @@
                     Contact Us
                 </h5>
                 <p>
-                    dolor sit amet, consectetur magna aliqua. quisdotempor incididunt ut e 
+                    dolor sit amet, consectetur magna aliqua. quisdotempor incididunt ut e
                 </p>
               </div>
               <div class="col-md-3">
-           
+
                 <div class="subscribe_container">
                   <h5>
                       Newsletter
@@ -442,18 +445,18 @@
                     </form>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>
           <div class="container">
               <div class="social_container">
-                 
+
                   <div class="social-box">
                     <a href="">
                       <img src="images/fb.png" alt="">
                     </a>
-      
+
                     <a href="">
                       <img src="images/twitter.png" alt="">
                     </a>
@@ -480,7 +483,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
- 
+
 </body>
 
 </html>
