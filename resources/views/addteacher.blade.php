@@ -69,6 +69,14 @@
                                 </li>
 
                                 <li class="nav-item">
+                                    <a class="nav-link" href="teacher">Teacher</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="exams">Exams</a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="why"> Why Us </a>
                                 </li>
 
@@ -76,9 +84,7 @@
                                     <a class="nav-link" href="contact">Contact Us</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="teacher">Teacher</a>
-                                </li>
+
 
                             </ul>
                         </div>

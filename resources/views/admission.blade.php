@@ -71,6 +71,14 @@
                                     </li>
 
                                     <li class="nav-item">
+                                        <a class="nav-link" href="teacher">Teacher</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="exams">Exams</a>
+                                    </li>
+
+                                    <li class="nav-item">
                                         <a class="nav-link" href="why"> Why Us </a>
                                     </li>
 
@@ -86,12 +94,12 @@
 
         </div>
         @if (\Session::has('success'))
-    <div class="alert alert-success " >
-        <ul>
-            <li style="margin-left: 45%">{!! \Session::get('success') !!}</li>
-        </ul>
-    </div>
-@endif
+            <div class="alert alert-success ">
+                <ul>
+                    <li style="margin-left: 45%">{!! \Session::get('success') !!}</li>
+                </ul>
+            </div>
+        @endif
         <!-- end header section -->
 
         <div class="common_style">
@@ -132,22 +140,22 @@
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="f_name">First Name</label>
-                                        <input class="w-100" type="text" name="f_name" id="f_name" value="name"> <br>
+                                        <input class="w-100" type="text" name="f_name" id="f_name"> <br>
                                     </div>
                                     <div class="col">
                                         <label for="l_name">Last Name</label>
-                                        <input class="w-100" type="text" name="l_name" id="l_name" value="name"> <br>
+                                        <input class="w-100" type="text" name="l_name" id="l_name"> <br>
                                     </div>
                                 </div>
 
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="father">Father Name</label>
-                                        <input class="w-100" type="text" name="father" id="father" value="name"> <br>
+                                        <input class="w-100" type="text" name="father" id="father"> <br>
                                     </div>
                                     <div class="col">
                                         <label for="mother">Mother Name</label>
-                                        <input class="w-100" type="text" name="mother" id="mother" value="name"> <br>
+                                        <input class="w-100" type="text" name="mother" id="mother"> <br>
 
                                     </div>
                                 </div>
@@ -155,31 +163,31 @@
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="mobile">Mobile No.</label>
-                                        <input class="w-100" type="number" name="mobile" value="89765422" id="mobile"> <br>
+                                        <input class="w-100" type="number" name="mobile" id="mobile"> <br>
 
                                     </div>
                                     <div class="col">
                                         <label for="email">E mail</label>
-                                        <input class="w-100" type="email" name="email" value="name@gmail.com" id="email"> <br>
+                                        <input class="w-100" type="email" name="email" id="email"> <br>
                                     </div>
                                 </div>
                                 <div class="row g-2 ">
                                     <div class="col">
                                         <label for="dob">Date of Birth</label>
-                                        <input class="w-100" type="date" name="dob"  id="dob"> <br>
+                                        <input class="w-100" type="date" name="dob" id="dob"> <br>
                                     </div>
                                     <div class="col">
                                         <label for="addreass">Address </label>
-                                        <input class="w-100"type="text" name="address" id="address" value="name"> <br>
+                                        <input class="w-100"type="text" name="address" id="address"> <br>
                                     </div>
                                 </div>
-                            </div>
-
-
-                            <div class=" d-flex justify-content-center w-100 m-3 ">
-                                <button type="submit" class="btn btn-success px-4   ">Submit</button>
-                            </div>
                         </div>
+
+
+                        <div class=" d-flex justify-content-center w-100 m-3 ">
+                            <button type="submit" class="btn btn-success px-4   ">Submit</button>
+                        </div>
+                    </div>
 
 
                     </form>

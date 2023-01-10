@@ -89,30 +89,35 @@
                 </nav>
             </div>
         </header>
+
     </div>
+    @if (\Session::has('success'))
+        <div class="alert alert-success ">
+            <ul>
+                <li style="margin-left: 45%">{!! \Session::get('success') !!}</li>
+            </ul>
+        </div>
+    @endif
     <!-- end header section -->
 
     <div class="common_style">
 
-        <!-- why section -->
-        <section class="why_section">
+
+
+        <!-- admission section -->
+        <section class="admission_section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="why_img-container">
-                            <img src="images/why.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="why_detail-box">
+                        <div class="admission_detail-box">
                             <h3>
-                                Why learn on Fanadesh
+                                Exam Shedule
                             </h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip
                                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                             </p>
                             <div class="">
@@ -122,15 +127,84 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="admission_img-container">
+                            <img src="images/admission.png" alt="">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <form action="/exam" method="POST">
+                            @csrf
+                            <div class="row g-2 ">
+                                <div class="col">
+                                    <div class="input-group mb-3">
+                                        <label for="exam_type"></label>
+                                        <select class="custom-select" name="exam_type" id="exam_type">
+                                            <option selected value="annual">Annual</option>
+                                            <option value="internal">Internal</option>
+                                            <option value="practical">Practical</option>
+                                            <option value="test">Class Test</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col mb-5">
+                                    <label for="subject">Subject</label>
+                                    <input class="w-100" type="text" name="subject" id="subject">
+                                    <br>
+                                </div>
+                            </div>
+
+                            <div class="row g-2 mb-5">
+                                <div class="col">
+                                    <label for="f_mark">Full Marks</label>
+                                    <input class="w-100" type="text" name="f_mark" id="f_mark"> <br>
+                                </div>
+                                <div class="col">
+                                    <label for="p_mark">Passing Marks</label>
+                                    <input class="w-100" type="text" name="p_mark" id="p_mark"> <br>
+
+                                </div>
+                            </div>
+
+                            <div class="row g-2 mb-5">
+                                <div class="col">
+                                    <label for="exam_from">Exam From*</label>
+                                    <input class="w-100" type="datetime-local" name="exam_from" id="exam_from"> <br>
+                                </div>
+                                <div class="col">
+                                    <label for="exam_to">Exam To*</label>
+                                    <input class="w-100" type="datetime-local" name="exam_to" id="exam_to"> <br>
+
+                                </div>
+                            </div>
+
+                            <div class="row g-2 ">
+                                <div class="col">
+                                    <label for="question">Questions</label>
+                                    <textarea class="w-100" type="text" name="question" id="question" rows="8"></textarea> <br>
+
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class=" d-flex justify-content-center w-100 m-3 ">
+                        <button type="submit" class="btn btn-success px-4   ">Submit</button>
+                    </div>
                 </div>
+
+
+                </form>
             </div>
-        </section>
+    </div>
+    </div>
+    </section>
 
 
-        <!-- end why section -->
+
+    <!-- end admission section -->
+
 
     </div>
-
 
     <!-- info section -->
     <section class="info_section layout_padding-top">

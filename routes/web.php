@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admissionController;
+use App\Http\Controllers\examController;
 use App\Http\Controllers\teacherController;
 use Illuminate\Support\Facades\Route;
 
@@ -43,12 +44,18 @@ Route::get('/teacher', function () {
     return view('addteacher');
 });
 
+Route::get('/exams', function () {
+    return view('exam');
+});
+
 Route::get('/teacher', [teacherController::class, 'teacherData']);
 
 Route::post('/add', [admissionController::class,'addmission']);
 
-// Route::post('/addteacher', [teacherController::class,'teacher']);
 Route::post('/addteacher', [teacherController::class, 'teacher']);
+
+Route::post('/exam', [examController::class,'handleExam']);
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
