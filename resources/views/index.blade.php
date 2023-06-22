@@ -94,10 +94,7 @@
             <div class="hero-container container">
                 <div class="hero_detail-box">
                     <h1>
-                        Best way
-                        to fund
-                        your study
-                        abroad
+                        Best English Medium School In Baikunthpur
                     </h1>
                     <p>
                         ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
