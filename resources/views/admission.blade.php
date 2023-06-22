@@ -139,31 +139,31 @@
                                 @csrf
                                 <div class="row g-2 ">
                                     <div class="col">
-                                        <label for="f_name">First Name</label>
-                                        <input class="w-100" type="text" name="f_name" id="f_name"> <br>
+                                        <label for="first_name">First Name</label>
+                                        <input class="w-100" type="text" name="first_name" id="first_name"> <br>
                                     </div>
                                     <div class="col">
-                                        <label for="l_name">Last Name</label>
-                                        <input class="w-100" type="text" name="l_name" id="l_name"> <br>
-                                    </div>
-                                </div>
-
-                                <div class="row g-2 ">
-                                    <div class="col">
-                                        <label for="father">Father Name</label>
-                                        <input class="w-100" type="text" name="father" id="father"> <br>
-                                    </div>
-                                    <div class="col">
-                                        <label for="mother">Mother Name</label>
-                                        <input class="w-100" type="text" name="mother" id="mother"> <br>
-
+                                        <label for="last_name">Last Name</label>
+                                        <input class="w-100" type="text" name="last_name" id="last_name"> <br>
                                     </div>
                                 </div>
 
                                 <div class="row g-2 ">
                                     <div class="col">
-                                        <label for="mobile">Mobile No.</label>
-                                        <input class="w-100" type="number" name="mobile" id="mobile"> <br>
+                                        <label for="father_name">Father Name</label>
+                                        <input class="w-100" type="text" name="father_name" id="father_name"> <br>
+                                    </div>
+                                    <div class="col">
+                                        <label for="mother_name">Mother Name</label>
+                                        <input class="w-100" type="text" name="mother_name" id="mother_name"> <br>
+
+                                    </div>
+                                </div>
+
+                                <div class="row g-2 ">
+                                    <div class="col">
+                                        <label for="contact_no">Mobile No.</label>
+                                        <input class="w-100" type="number" name="contact_no" id="contact_no"> <br>
 
                                     </div>
                                     <div class="col">
@@ -173,11 +173,11 @@
                                 </div>
                                 <div class="row g-2 ">
                                     <div class="col">
-                                        <label for="dob">Date of Birth</label>
-                                        <input class="w-100" type="date" name="dob" id="dob"> <br>
+                                        <label for="birth_date">Date of Birth</label>
+                                        <input class="w-100" type="date" name="birth_date" id="birth_date"> <br>
                                     </div>
                                     <div class="col">
-                                        <label for="addreass">Address </label>
+                                        <label for="address">Address </label>
                                         <input class="w-100"type="text" name="address" id="address"> <br>
                                     </div>
                                 </div>
